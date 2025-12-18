@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- REFERENCE RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- REFERENCE SEO -->
+    <meta name="description" content="Student' website only for an artist known as Chief Keef mainly build for fan team for inquiries and collaborations.">
+    <meta name="author" content="ALPHA KABINET TOURE">
+    <meta name="keywords" content="Chief Keef, contact, fan site, collaborations, hip-hop, SOSA, Love SOSA">
+
+    <!-- TITRE DE LA PAGE -->
+    <title>News - Chief Keef</title>
+
+    <!-- FEUILLE DE STYLE CSS -->
+    <link rel="stylesheet" href="../style/style.css">
+
+    <!-- FAVICON TABLETTE ET LAPTOP -->
+    <link rel="icon" type="image/png" href="../img/favicon/favicon.png" sizes="96x96">
+
+    <!-- FAVICON MOBILE -->
+    <link rel="apple-touch-icon" href="../img/favicon/apple_favicon.png">
+
+    <!-- STYLE INLINE -->
+    <style>
+        /* News Header */
+        .news-header {
+        min-height: 73vh;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    
+    <!-- Navigation principale du site -->
+    <nav id="navbar">
+        <button class="burger-menu" id="burgerMenu" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div id="mobile">
+            <li class="mobile_logo"><a href="../index.html">SOSA</a></li>  
+        </div>
+
+        <ul class="menu" id="menu">
+            <li class="logo"><a href="../index.html">CHIEF KEEF</a></li>
+            <li><a class="home" href="../index.html">Home</a></li>
+            <li class="artist_dropdown">
+                <a href="#" class="dropdown-toggle">Artist</a>
+                <ul class="dropdown">
+                    <li><a href="../pages/bio_drill.html">Biography</a></li>
+                    <li><a href="../pages/impact.html">Impact</a></li>
+                    <li><a href="../pages/news.html">News</a></li>
+                </ul>
+            </li>
+            <li class="live_dropdown">
+                <a href="#" class="dropdown-toggle">Collabs</a>
+                <ul class="dropdown">
+                    <li><a href="../pages/features.html">Features</a></li>
+                    <li><a href="../pages/tour_shows.html">Tour & Shows</a></li>
+                </ul>
+            </li>
+            <li class="music_dropdown">
+                <a href="#" class="dropdown-toggle">Music</a>
+                <ul class="dropdown">
+                    <li><a href="../pages/albums.html">Albums</a></li>
+                    <li><a href="../pages/quizz.html">Quiz</a></li>
+                </ul>
+            </li>
+            <li class="contact_dropdown">
+                <a href="#" class="dropdown-toggle">Contact</a>
+                <ul class="dropdown">
+                    <li><a href="../pages/tracks.html">Tracks</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                    <li><a href="../pages/credits.html">Credits</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Entête de la section news -->
+    <header class="news-header">
+        <div class="video-background">
+            <video autoplay muted loop playsinline poster="../img/random/poster.webp">
+                <source src="../videos/dc-recap.webm" type="video/webm">
+                <source src="../videos/dc-recap.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="header-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">LATEST UPDATES</div>
+            <h1 class="glitch-text" data-text="NEWS">NEWS</h1>
+            <p class="hero-subtitle">STAY CONNECTED WITH SOSA</p>
+            <p class="hero-tagline">WELCOME TO THE GLO</p>
+        </div>
+    </header>
+
+    <!-- Contenu principal de la section news -->
+    <main class="news-main" style="background-image: url('../img/usplash/up3.webp');">
+        <div class="news-container hidden">
+            
+            <section class="latest-updates">
+                <div class="latest-updates-content">
+                    <div>
+                        <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: 36px; color: var(--primary); margin-bottom: 20px; letter-spacing: 3px;">LATEST UPDATES</h2>
+                        <p style="color: var(--text-muted); font-size: 18px; max-width: 600px; margin: 0 auto;">This section will be about his latest updates, releases, and announcements.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Navigation de filtration des新闻 -->
+            <nav class="filter-nav">
+                <button class="filter-btn active" data-filter="all">ALL NEWS</button>
+                <button class="filter-btn" data-filter="music">MUSIC</button>
+                <button class="filter-btn" data-filter="events">EVENTS</button>
+                <button class="filter-btn" data-filter="business">BUSINESS</button>
+            </nav>
+
+            <!-- Grille de news -->
+            <div class="news-grid">
+                <!-- music -->
+                <article class="news-card" data-category="music">
+                    <span class="news-card-category">MUSIC</span>
+                    <h3>NEW ALBUM ANNOUNCEMENT</h3>
+                    <p>Chief Keef announces his latest project, continuing to push the boundaries of drill music with innovative sounds and collaborations.</p>
+                    <span class="news-card-date">January 15, 2025</span>
+                </article>
+                <!-- events -->
+                <article class="news-card" data-category="events">
+                    <span class="news-card-category">EVENTS</span>
+                    <h3>UPCOMING TOUR DATES</h3>
+                    <p>Get ready for an unforgettable experience as Chief Keef hits the road for his highly anticipated tour across major cities.</p>
+                    <span class="news-card-date">January 10, 2025</span>
+                </article>
+                <!-- music -->
+                <article class="news-card" data-category="music">
+                    <span class="news-card-category">MUSIC</span>
+                    <h3>COLLABORATION REVEALED</h3>
+                    <p>Exclusive collaboration with top artists in the industry, bringing together the best of drill and modern hip-hop.</p>
+                    <span class="news-card-date">January 5, 2025</span>
+                </article>
+                <!-- business -->
+                <article class="news-card" data-category="business">
+                    <span class="news-card-category">BUSINESS</span>
+                    <h3>NEW MERCHANDISE DROP</h3>
+                    <p>Limited edition merchandise collection now available, featuring exclusive designs and premium quality items.</p>
+                    <span class="news-card-date">December 28, 2024</span>
+                </article>
+                <!-- events -->
+                <article class="news-card" data-category="events">
+                    <span class="news-card-category">EVENTS</span>
+                    <h3>FESTIVAL PERFORMANCE</h3>
+                    <p>Chief Keef confirmed to headline major music festivals this summer, bringing the GLO to stages worldwide.</p>
+                    <span class="news-card-date">December 20, 2024</span>
+                </article>
+                <!-- music -->
+                <article class="news-card" data-category="music">
+                    <span class="news-card-category">MUSIC</span>
+                    <h3>MUSIC VIDEO PREMIERE</h3>
+                    <p>Watch the premiere of the latest music video, showcasing Chief Keef's unique visual style and artistic vision.</p>
+                    <span class="news-card-date">December 15, 2024</span>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lecteur audio flottant ( fait avec github et gemini) -->
+    <div class="floating-audio-player">
+        <button class="audio-play-btn" id="audioPlayBtn" aria-label="Play audio">
+            <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z"/>
+            </svg>
+            <span class="pause-icon" style="display:none;">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <rect x="6" y="4" width="4" height="16"/>
+                    <rect x="14" y="4" width="4" height="16"/>
+                </svg>
+            </span>
+        </button>
+        
+        <div class="song-info">
+            <p id="currentSong">Song 1</p>
+        </div>
+    
+        <audio id="audioPlayer">
+            
+        </audio>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col footer-about">
+                <a href="#home" class="footer-logo">CHIEF KEEF</a>
+                <p class="footer-about-text">
+                    Official fan site – archives, discography and latest news. Welcome to the GLO.
+                </p>
+                <div class="footer-contact">
+                    <small><span class="contacto">Contact:</span> <a href="mailto:adam.ait_badi@utt.fr">adam.ait_badi@utt.fr</a></small>
+                    <a href="contact.html" class="footer-contact-btn">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="footer-col footer-links">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/bio_drill.html">Biography</a></li>
+                    <li><a href="../pages/albums.html">Albums</a></li>
+                    <li><a href="../pages/news.html">News</a></li>
+                    <li><a href="../pages/features.html">Features</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-newsletter">
+                <h3>NEWSLETTER</h3>
+                <p class="footer-news-desc">Get the latest releases and announcements.</p>
+                <form class="newsletter-form">
+                    <input type="text" name="name" placeholder="Your name" aria-label="Name">
+                    <input type="email" name="email" placeholder="Your email" aria-label="Email" required>
+                    <button class="btn-solid" type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-social">
+            <a href="https://www.facebook.com/ChiefKeef/" aria-label="Facebook">Facebook</a>
+            <a href="https://twitter.com/ChiefKeef" aria-label="Twitter">Twitter</a>
+            <a href="https://www.instagram.com/chieffkeeffsossa/" aria-label="Instagram">Instagram</a>
+        </div>
+
+        <div class="footer-note">
+            &copy; <span id="year">2025</span> Chief Keef – <a href="mailto:alpha_kabinet.toure@utt.fr">ALPHA KABINET TOURE</a>
+        </div>
+    </footer>
+
+    <!-- Script réalisé avec GitHub, W3Schools et Gemini -->
+    <script src="../script/script.js" defer></script>
+</body>
+</html>
